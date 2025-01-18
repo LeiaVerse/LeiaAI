@@ -1,0 +1,15 @@
+{
+  "name": "leia",
+  "version": "0.0.1",
+  "scripts": {
+    "goal": "bun run examples/example-goal.ts",
+    "task": "bun run examples/example-basic.ts",
+    "twitter": "bun run examples/example-twitter.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.5",
+    "ajv": "^8.17.1",
+    "chalk": "^5.4.1",
+    "readline": "^1.3.0"
+  }
+}
